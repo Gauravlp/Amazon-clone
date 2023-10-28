@@ -148,7 +148,7 @@
 .hero-section{
     background-image: url(hero_image.jpg);
     background-size: cover;
-    height: 600px;
+    height: 450px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -158,12 +158,52 @@
     background-color: white;
     font-size: 0.9rem;
     height: 40px;
+    width: 80%;
     display: flex;
     justify-content: center;
     align-items: center; 
+    margin: 45px;
 }
 
 .hero-text a{
     text-decoration: none;
     color: #007185;
+}
+
+/* Shop section */
+
+.box{
+    width: 23%;
+    height: 400px;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 10px;
+    transition: 0.4s;
+}
+
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+
+.box-image{
+    height: 300px;
+    background-image: contain;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-content{
+    margin-left: 1rem;
+}
+
+.box-content a{
+    text-decoration: none;
+    color: #007185;
+}
+
+.box:hover{
+    box-shadow: 1px 3px 8px black
 }
